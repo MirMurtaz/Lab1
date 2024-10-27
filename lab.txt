@@ -1,1 +1,30 @@
+Qno 1 -> How do you execute a .exe file?
+Ans -> To execute a `.exe` file, double-click it or right-click and select "Open." Ensure your antivirus permits it. If prompted, click "Run" or "Yes" to grant permissions. On command prompt, type the file path and press Enter. Administrative rights may be required for certain programs. 
 
+Qno2 -> What is the process of a compiler, and what files are needed?  
+
+Ans ->  compiler translates source code (like C, C++, or Java) into machine code or executable files. The compilation process involves:  
+1. Preprocessing – Handles directives (e.g., `#include`).  
+2. Compilation – Converts code to intermediate assembly.  
+3. Assembly – Converts assembly to object code (.obj or .o files).  
+4. Linking – Combines object files with libraries to create the final executable.
+
+Files needed include:  
+- Source code (.c, .cpp, .java)  
+- Header files (.h) for declarations  
+- Library files (.lib, .dll, or .so) for external functions  
+
+
+Qno 3 -> What is the process of a linker, and what files are needed?
+
+Ans -> A linker combines multiple object files and libraries into a single executable or shared library. It resolves references between modules and ensures all function calls and variables are correctly linked.
+
+Linker Process:
+Symbol Resolution: Ensures all function/variable references have corresponding definitions.
+Address Binding: Assigns memory addresses to variables and functions.
+Relocation: Adjusts addresses in code for the final executable layout.
+Files Needed by Linker:
+Object files (.o or .obj) from the compiler.
+Libraries (.lib, .dll, or .so) for external functions.
+Startup code (optional) for initializing the runtime environment.
+Linker script (optional) for custom memory layout or settings.
